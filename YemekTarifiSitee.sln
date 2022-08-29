@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "YemekTarifiSitee", "YemekTarifiSitee\", "{4C1783C2-6C63-4860-9E7F-F7FF4D4716F3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62017"
+		Debug.AspNetCompiler.PhysicalPath = "YemekTarifiSitee\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62017\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62017"
+		Release.AspNetCompiler.PhysicalPath = "YemekTarifiSitee\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62017\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "62017"
+		SlnRelativePath = "YemekTarifiSitee\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2511360E-46AE-4295-9217-2AEB47D45728}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C1783C2-6C63-4860-9E7F-F7FF4D4716F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C1783C2-6C63-4860-9E7F-F7FF4D4716F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AFB6A48-E722-4261-B98E-9DB2600DF3B4}
+	EndGlobalSection
+EndGlobal
