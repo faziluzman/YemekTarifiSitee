@@ -29,5 +29,16 @@ public partial class YemekDetay : System.Web.UI.Page
         DataList2.DataSource= dr2;
         DataList2.DataBind();
     }
-   
+
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        SqlCommand komut = new SqlCommand("insert into Tbl_Yorumlar (YorumAdSoyad,YorumMail,Yorumicerik) values(@pt1,@pt2,@pt3)",bgl.baglanti());
+        komut.Parameters.AddWithValue("@pt1", TextBox1.Text);
+        komut.Parameters.AddWithValue("@pt2", TextBox2.Text);
+        komut.Parameters.AddWithValue("@pt3", TextBox3.Text);
+        komut.ExecuteNonQuery();
+        bgl.baglanti().Close();
+
+    }
 }

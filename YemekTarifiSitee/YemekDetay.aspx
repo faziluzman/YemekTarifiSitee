@@ -54,13 +54,13 @@
             <tr>
                 <td>Yorumunuz</td>
                 <td>
-                    <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3" runat="server" Height="97px" Width="279px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
                 <td>
-                    <asp:Button ID="Button1" runat="server" Text="Yorum Yap" />
+                    <asp:Button ID="Button1" runat="server" Text="Yorum Yap" OnClick="Button1_Click" />
                 </td>
             </tr>
         </table>
